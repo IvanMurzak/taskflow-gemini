@@ -1,4 +1,4 @@
-# Taskflow Skills - Antigravity
+# Taskflow Skills - Gemini
 
 [![Antigravity](https://img.shields.io/badge/Antigravity-plugin-10A37F?style=for-the-badge&labelColor=0D1117)](https://developers.openai.com/gemini/)
 [![Release](https://img.shields.io/github/v/release/IvanMurzak/taskflow-gemini?style=for-the-badge&logo=github&logoColor=white&label=release&labelColor=0D1117&color=3FB950)](https://github.com/IvanMurzak/taskflow-gemini/releases)
