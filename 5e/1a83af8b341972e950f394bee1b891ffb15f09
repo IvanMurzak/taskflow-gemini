@@ -1,0 +1,16 @@
+README.md
+  h_8325a340bf5897 1
+docs/taskflow-gemini.svg
+  h_8325a340bf5897 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "5e1a83af8b341972e950f394bee1b891ffb15f09",
+  "prompts": {},
+  "humans": {
+    "h_8325a340bf5897": {
+      "author": "Ivan Murzak <Ivan.D.Murzak@gmail.com>"
+    }
+  }
+}
