@@ -1,0 +1,36 @@
+{
+  "name": "taskflow",
+  "version": "0.8.1",
+  "description": "A four-skill Taskflow lifecycle for architecture planning, adversarial verification, immutable task specifications, and ROADMAP-driven execution.",
+  "author": {
+    "name": "IvanMurzak"
+  },
+  "repository": "https://github.com/IvanMurzak/taskflow-gemini",
+  "license": "MIT",
+  "keywords": [
+    "taskflow",
+    "architecture",
+    "roadmap",
+    "task-decomposition",
+    "orchestration",
+    "adversarial-review",
+    "model-routing"
+  ],
+  "skills": "./skills/",
+  "agents": ["./agents/taskflow-implementer.toml", "./agents/taskflow-reviewer.toml"],
+  "interface": {
+    "displayName": "Taskflow",
+    "shortDescription": "Plan, verify, specify, and orchestrate complex changes.",
+    "longDescription": "A repository-evidenced workflow that plans architecture, adversarially reviews it, writes immutable task specs, and executes from one ROADMAP status board.",
+    "developerName": "IvanMurzak",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/IvanMurzak/taskflow-gemini",
+    "defaultPrompt": [
+      "Use taskflow-plan to plan this architectural change.",
+      "Review the selected Taskflow artifacts for evidence and consistency.",
+      "Prepare immutable tasks and execution waves for this Taskflow."
+    ],
+    "brandColor": "#2F6FEB"
+  }
+}
