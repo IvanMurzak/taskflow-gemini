@@ -17,7 +17,7 @@
     "model-routing"
   ],
   "skills": "./skills/",
-  "agents": ["./agents/taskflow-implementer.toml", "./agents/taskflow-reviewer.toml"],
+  "agents": ["./agents/taskflow-implementer.md", "./agents/taskflow-reviewer.md"],
   "interface": {
     "displayName": "Taskflow",
     "shortDescription": "Plan, verify, specify, and orchestrate complex changes.",

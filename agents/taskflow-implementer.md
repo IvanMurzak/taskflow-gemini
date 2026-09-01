@@ -1,7 +1,11 @@
-name = "taskflow-implementer"
-description = "Implements one Taskflow task in its prepared git worktree. Spawned by taskflow-execute; never edits task state, reviews, or merges."
+---
+name: taskflow-implementer
+description: Implements one Taskflow task in its prepared git worktree. Spawned by
+  taskflow-execute; never edits task state, reviews, or merges.
+kind: local
+model: inherit
+---
 
-developer_instructions = '''
 # Taskflow implementer
 
 Your spawn message must be exactly one absolute path to an immutable task file.
@@ -27,4 +31,3 @@ blocker. Do not end the turn waiting for a background command.
 Report outcome, changed files, commands/results, DoD evidence, PR (or
 branch/commit), and anything unverified. The report is not proof; the scheduler
 verifies repository and CI state.
-'''
