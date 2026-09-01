@@ -3,6 +3,9 @@ name: taskflow-reviewer
 description: Reviews one Taskflow task diff independently. Spawned by taskflow-execute;
   never implements, edits task state, or merges.
 kind: local
+enable_write_tools: true
+enable_subagent_tools: true
+enable_mcp_tools: true
 model: inherit
 ---
 

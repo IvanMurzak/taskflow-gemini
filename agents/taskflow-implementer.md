@@ -3,6 +3,9 @@ name: taskflow-implementer
 description: Implements one Taskflow task in its prepared git worktree. Spawned by
   taskflow-execute; never edits task state, reviews, or merges.
 kind: local
+enable_write_tools: true
+enable_subagent_tools: true
+enable_mcp_tools: true
 model: inherit
 ---
 

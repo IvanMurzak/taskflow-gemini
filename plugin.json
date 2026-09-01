@@ -1,6 +1,6 @@
 {
   "name": "taskflow",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "description": "A four-skill Taskflow lifecycle for architecture planning, adversarial verification, immutable task specifications, and ROADMAP-driven execution.",
   "author": {
     "name": "IvanMurzak"
@@ -17,14 +17,20 @@
     "model-routing"
   ],
   "skills": "./skills/",
-  "agents": ["./agents/taskflow-implementer.md", "./agents/taskflow-reviewer.md"],
+  "agents": [
+    "./agents/taskflow-implementer.md",
+    "./agents/taskflow-reviewer.md"
+  ],
   "interface": {
     "displayName": "Taskflow",
     "shortDescription": "Plan, verify, specify, and orchestrate complex changes.",
     "longDescription": "A repository-evidenced workflow that plans architecture, adversarially reviews it, writes immutable task specs, and executes from one ROADMAP status board.",
     "developerName": "IvanMurzak",
     "category": "Productivity",
-    "capabilities": ["Interactive", "Write"],
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
     "websiteURL": "https://github.com/IvanMurzak/taskflow-gemini",
     "defaultPrompt": [
       "Use taskflow-plan to plan this architectural change.",
