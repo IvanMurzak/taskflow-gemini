@@ -19,15 +19,10 @@ Four commands, in order. That is the whole thing.
 ## Install
 
 ```bash
-agy plugin marketplace add IvanMurzak/pipeline-gemini-marketplace
-agy plugin add taskflow@pipeline
+agy plugin install https://github.com/IvanMurzak/taskflow-gemini
 ```
 
 Restart Antigravity and the four skills are there.
-
-> One marketplace carries both of my Antigravity plugins, and its id is `pipeline` —
-> hence the `@pipeline` suffix. The plugin you just installed is `taskflow`;
-> `pipeline` is the other one.
 
 ### Optional execution toolkit
 
